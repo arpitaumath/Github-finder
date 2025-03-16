@@ -21,9 +21,9 @@ const Profile = () => {
   },[login])
 
   return (
-    <div className='flex flex-col h-screen   items-center  '>
+    <div className='flex flex-col h-screen   items-center  bg-black text-white '>
       
-      <img className='w-56  border-2 border-black rounded-[50%] my-10 ' src= {user.avatar_url} alt=""></img>
+      <img className='w-56  border-2 border-white rounded-[50%] my-10 ' src= {user.avatar_url} alt=""></img>
      
    
     <h1 className='text-xl '>User ID : {user.id}</h1>
